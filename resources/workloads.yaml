@@ -182,7 +182,7 @@ metadata:
   name: direct-csi-controller-min-io
   namespace: direct-csi
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: direct-csi-controller-min-io
